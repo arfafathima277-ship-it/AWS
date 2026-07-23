@@ -1,0 +1,156 @@
+# AWS IAM Interview Questions
+
+This document contains commonly asked AWS Identity and Access Management (IAM) interview questions for beginners and aspiring Cloud/DevOps Engineers.
+
+---
+
+# AWS IAM Basics
+
+1. What is AWS IAM?
+2. Why is IAM important in AWS?
+3. What are the main components of IAM?
+4. What is the principle of least privilege?
+5. Is IAM a global service or a regional service?
+6. What is the difference between authentication and authorization?
+7. What is an AWS account?
+
+---
+
+# IAM Users
+
+8. What is an IAM User?
+9. When should you create an IAM User?
+10. Why is it not recommended to use the AWS Root User for daily tasks?
+11. What permissions does the Root User have?
+12. How do you create an IAM User?
+13. How do you delete an IAM User?
+14. How do you reset an IAM User's password?
+15. What are Access Keys?
+16. Why are Access Keys used?
+17. What is the difference between Console Access and Programmatic Access?
+
+---
+
+# IAM Groups
+
+18. What is an IAM Group?
+19. Why do we use IAM Groups?
+20. Can an IAM User belong to multiple groups?
+21. Can IAM Groups contain other groups?
+22. What are the benefits of using IAM Groups?
+23. Can permissions be assigned directly to a group?
+
+---
+
+# IAM Roles
+
+24. What is an IAM Role?
+25. How is an IAM Role different from an IAM User?
+26. When should you use an IAM Role?
+27. Can an EC2 instance use an IAM Role?
+28. Why should applications use IAM Roles instead of Access Keys?
+29. What is a Trust Policy?
+30. What is an Assume Role operation?
+
+---
+
+# IAM Policies
+
+31. What is an IAM Policy?
+32. What are the different types of IAM Policies?
+33. What is the difference between AWS Managed Policies and Customer Managed Policies?
+34. What is an Inline Policy?
+35. What is the difference between Managed Policies and Inline Policies?
+36. What is a JSON Policy?
+37. What are the main elements of a JSON Policy?
+38. What does the "Effect" element specify?
+39. What does the "Action" element specify?
+40. What does the "Resource" element specify?
+41. What is the purpose of the "Condition" element?
+42. What is an Explicit Deny?
+43. Which takes precedence: Allow or Deny?
+
+---
+
+# IAM Security
+
+44. What is Multi-Factor Authentication (MFA)?
+45. Why should MFA be enabled?
+46. Can MFA be enabled for the Root User?
+47. What are Password Policies?
+48. Why should strong password policies be enforced?
+49. What is IAM Access Analyzer?
+50. What is IAM Credential Report?
+51. What is IAM Policy Simulator?
+52. How do you rotate Access Keys?
+53. Why should Access Keys be rotated regularly?
+54. How do you disable an IAM User?
+
+---
+
+# IAM Permissions
+
+55. How do you grant permissions to a user?
+56. How do you revoke permissions?
+57. What is permission inheritance?
+58. Can one IAM User access another user's resources?
+59. What is Resource-Based Policy?
+60. What is Identity-Based Policy?
+61. What is the difference between Resource-Based Policy and Identity-Based Policy?
+
+---
+
+# IAM Best Practices
+
+62. What are AWS IAM best practices?
+63. Why should you avoid using the Root User?
+64. Why should you enable MFA?
+65. Why should you follow the Principle of Least Privilege?
+66. Why should IAM Roles be preferred over Access Keys?
+67. Why should unused IAM Users be removed?
+68. Why should Access Keys never be hardcoded?
+69. Why should IAM permissions be reviewed regularly?
+70. Why should CloudTrail be enabled for IAM monitoring?
+
+---
+
+# Scenario-Based Questions
+
+71. A developer needs read-only access to an S3 bucket. How would you provide it?
+72. A team of five developers requires the same permissions. What is the best IAM approach?
+73. An EC2 instance needs access to an S3 bucket. Should you use Access Keys or an IAM Role? Why?
+74. An employee leaves the company. What IAM actions should you perform?
+75. A user accidentally deleted an IAM policy. How would you investigate the issue?
+76. How would you secure the AWS Root User?
+77. A user reports "Access Denied." How would you troubleshoot?
+78. How would you audit IAM permissions in an AWS account?
+79. How would you identify unused IAM Users?
+80. How would you detect overly permissive IAM Policies?
+
+---
+
+# Frequently Asked Interview Questions
+
+81. What is the difference between an IAM User and an IAM Role?
+82. What is the difference between an IAM User and the Root User?
+83. What is the difference between IAM Groups and IAM Roles?
+84. What is the difference between Managed Policies and Inline Policies?
+85. What is the difference between Authentication and Authorization?
+86. What is the difference between Console Access and Programmatic Access?
+87. What is the difference between AWS Managed Policies and Customer Managed Policies?
+88. Explain the IAM authentication process.
+89. Explain the Principle of Least Privilege with an example.
+90. Explain how IAM works in AWS.
+
+---
+
+## Revision Checklist
+
+- Understand IAM Users, Groups, Roles, and Policies.
+- Learn JSON Policy structure (`Version`, `Statement`, `Effect`, `Action`, `Resource`, `Condition`).
+- Practice creating IAM Users, Groups, Roles, and Policies in the AWS Console.
+- Enable MFA for the Root User and IAM Users.
+- Understand IAM security best practices.
+- Review common interview scenarios and troubleshooting questions.
+
+**Happy Learning! 🚀**
